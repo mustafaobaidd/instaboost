@@ -1,14 +1,18 @@
 from instagrapi import Client
 import time
+import os
 
+USERNAME=os.environ['INSTAUSERNAME']
+PASSWORD=os.environ['INSTAPASSWORD']
 
 followlist = ["therock","instagram","cristiano","leomessi","selenagomez","kyliejenner","arianagrande","kimkardashian","beyonce","khloekardashian","nike","kendalljenner","justinbieber","natgeo","taylorswift"
 ,"virat.kohli","jlo","nickiminaj","kourtneykardash","neymarjr","mileycyrus","katyperry","zendaya","kevinhart4real","iamcardib","kingjames","ddlovato","badgalriri","realmadrid","chrisbrownofficial","champagnepapi",
 "ellendegeneres","fcbarcelona","championsleague","k.mbappe","billieeilish","gal_gadot","vindiesel","lalalalisa_m","nasa","shakira","priyankachopra","dualipa","davidbeckham","shraddhakapoor","nba","snoopdogg"
 ,"jennierubyjane","narendramodi","aliaabhatt"]
+
 cl=Client()
 print("Logging in")
-cl.login("accusername","accpass")
+cl.login(USERNAME,PASSWORD)
 print("Logged in Successfully")
 
 print("Starting following loop")
