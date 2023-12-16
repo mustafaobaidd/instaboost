@@ -21,4 +21,4 @@ then you can execute ```python3 instaboost.py```
 
 ## Warning 
 
-I haven't wrote python in a good while and i haven't implemented any kinda of exception handling or safety in any way and im not responsible if instagram bans your account so use at your own risk.
+I haven't wrote python in a good while and i haven't implemented any kind of exception handling or safety in any way and im not responsible if instagram bans your account so use at your own risk.
