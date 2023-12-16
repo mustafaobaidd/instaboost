@@ -15,3 +15,6 @@ echo $INSTAUSERNAME
 export INSTAPASSWORD="insert password here"
 echo $INSTAPASSWORD
 echo "Done"
+
+echo "Starting instaboost"
+python instaboost.py

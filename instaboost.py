@@ -15,27 +15,28 @@ print("Logging in")
 cl.login(USERNAME,PASSWORD)
 print("Logged in Successfully")
 
-print("Starting following loop")
-for user in followlist:
-    cl.user_follow(cl.user_id_from_username(user))
-    print("Followed @",user)
-print("Success following now waiting for 10 seconds and then starting unfollowing")
-time.sleep(30)
+def mainloop(delay):
+    print("Starting following loop")
+    for user in followlist:
+        cl.user_follow(cl.user_id_from_username(user))
+        print("Followed @",user)
+    print("Success following now waiting for 10 seconds and then starting unfollowing")
+
+    time.sleep(delay)
 
 
 
-print("unfollow loop")
-for user in followlist:
-    cl.user_unfollow(cl.user_id_from_username(user))
-    print("Unfollowed @",user)
+    print("unfollow loop")
+    for user in followlist:
+        cl.user_unfollow(cl.user_id_from_username(user))
+        print("Unfollowed @",user)
+    time.sleep(180)
 
 
 
-
-
-print("Success")
-exit(0)
-
+if __name__ == "__main__":
+    while(True):
+        mainloop(1800) 
 
 
 
