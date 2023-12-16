@@ -20,7 +20,7 @@ def mainloop(delay):
     for user in followlist:
         cl.user_follow(cl.user_id_from_username(user))
         print("Followed @",user)
-    print("Success following now waiting for {delay} seconds and then starting unfollowing")
+    print("Success following now waiting for ",delay ," seconds and then starting unfollowing")
 
     time.sleep(delay)
 
