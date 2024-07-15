@@ -8,7 +8,7 @@ PASSWORD=os.environ['INSTAPASSWORD']
 followlist = ["therock","instagram","cristiano","leomessi","selenagomez","kyliejenner","arianagrande","kimkardashian","beyonce","khloekardashian","nike","kendalljenner","justinbieber","natgeo","taylorswift"
 ,"virat.kohli","jlo","nickiminaj","kourtneykardash","neymarjr","mileycyrus","katyperry","zendaya","kevinhart4real","iamcardib","kingjames","ddlovato","badgalriri","realmadrid","chrisbrownofficial","champagnepapi",
 "ellendegeneres","fcbarcelona","championsleague","k.mbappe","billieeilish","gal_gadot","vindiesel","lalalalisa_m","nasa","shakira","priyankachopra","dualipa","davidbeckham","shraddhakapoor","nba","snoopdogg"
-,"jennierubyjane","narendramodi","aliaabhatt","ahmadjamil","ayhamnahar","abdallahman","hammamahmad","hellomweo", "ahmadjalel"]
+,"jennierubyjane","narendramodi","aliaabhatt","ahmadjamil","ayhamnahar","abdallahman","hammamahmad","hellomweo", "ahmadjalel","hamoddeh"]
 
 cl=Client()
 print("Logging in")
